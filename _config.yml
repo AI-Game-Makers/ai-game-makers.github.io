@@ -1,0 +1,29 @@
+title: AI Game Makers
+email: ai-game-makers@gmail.com
+description: >-
+  AI Game Makers is an organization dedicated to developing innovative and engaging games with the help of AI. Our flagship project is Quantum Pathways, a game built around the fascinating world of quantum mechanics.
+baseurl: ""
+url: "https://ai-game-makers.github.io"
+
+remote_theme: andrewbanchich/forty-jekyll-theme
+
+tiles-source: pages
+tiles-count: 6
+
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub: https://github.com/ai-game-makers/
+  Twitter: https://twitter.com/ai-game-makers/
+
+collections:
+  pages:
+    output:                true
+    permalink:             /:title/
+
+exclude:
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
